@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/graphicx-psmin
+# catalog-date 2007-05-25 16:15:27 +0200
+# catalog-license lppl
+# catalog-version 1.1
 Name:		texlive-graphicx-psmin
 Version:	1.1
 Release:	1
@@ -48,6 +54,7 @@ each graphics file, anyway).
 %doc %{_texmfdistdir}/doc/latex/graphicx-psmin/graphicx-psmin.pdf
 #- source
 %doc %{_texmfdistdir}/source/latex/graphicx-psmin/graphicx-psmin.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ each graphics file, anyway).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
