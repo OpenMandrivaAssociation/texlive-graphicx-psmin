@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-graphicx-psmin
 Version:	1.1
-Release:	1
+Release:	2
 Summary:	Reduce size of PostScript files by not repeating images
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/graphicx-psmin
