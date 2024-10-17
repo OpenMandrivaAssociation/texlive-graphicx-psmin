@@ -3,7 +3,7 @@ Version:	56931
 Release:	2
 Summary:	Reduce size of PostScript files by not repeating images
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/graphicx-psmin
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/graphicx-psmin
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/graphicx-psmin.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/graphicx-psmin.doc.r%{version}.tar.xz
